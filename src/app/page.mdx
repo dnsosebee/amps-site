@@ -1,0 +1,55 @@
+import Image from "next/image";
+
+<main className="mx-auto max-w-7xl sm:px-6 lg:px-8 sm:py-6 lg:py-8 prose prose-sm">
+
+
+# Agent Meta-Programming System Runtime
+
+<Image
+src="/escher-drawing-hands.webp"
+alt="Escher's Drawing Hands"
+className="float-right m-5"
+width="200"
+height="200"
+/>
+
+Amps is a research project to develop a language and runtime for self-improving AI agents. Unlike many existing agent architectures, Amps agents operate in a [reflective programming environment](https://en.wikipedia.org/wiki/Reflective_programming) which allows them to systematically understand and modify their own behavior systems at any level of abstraction.
+
+This project is led by [Daniel Sosebee](https://danielsosebee.com) and builds on the concept of human programming as described and developed in [Methodable](https://a.methodable.com). For questions or ideas, please [reach out via email](mailto:daniel@harmonic.so).
+
+### Agenda
+1. Initial research - review existing literature on AI agents, planning systems, and human executive functioning.
+2. Problem identification - collect problems that will serve as a realistic test of the efficacy of autonomous AI agents.
+3. Human trial recording - record a human (mysel) solving the problems identified in step 2 out loud, on video and in screen recording.
+4. Pseudocode development - Write pseudocode programs based on human trial data to symbolically describe the human perceptions, thoughts, and actions.
+5. Language spec development - Inspired by the human pseudocode, write a simple language spec for the Amps language.
+6. Initial Python library development - develop a Python library that implements the Amps language.
+7. Iterative system improvement - execute test runs against the problem list and record success metrics. Use the results to iteratively improve the system and reach a v1 language spec.
+8. Fine-tuning data collection - collect a dataset of Amps contexts and correct outputs.
+9. LLM fine-tuning - fine-tune an open-source language model on the dataset in order to better generate Amps commands.
+10. Full implementation and evaluation - implement the full Amps runtime and evaluate it on the problem list.
+11. Documentation - write up the results and publish online.
+
+
+## Related materials
+The following are not associated with Amps but will serve as inspiration and reference for the project.
+
+### Papers
+- 2024-03-14: [Quiet-STaR: Language Models Can Teach Themselves to Think Before Speaking](https://arxiv.org/abs/2403.09629)
+- 2023-10-10: [Mistral 7B](https://arxiv.org/abs/2310.06825)
+- 2023-05-24: [Voyager: An Open-Ended Embodied Agent with Large Language Models](https://arxiv.org/abs/2305.16291)
+- 2023-05-17: [Tree of Thoughts: Deliberate Problem Solving with Large Language Models](https://arxiv.org/abs/2305.10601)
+
+### Open source projects
+- [babyagi](https://github.com/yoheinakajima/babyagi)
+- [AutoGPT](https://github.com/Significant-Gravitas/AutoGPT)
+- [AgentGPT](https://github.com/reworkd/AgentGPT)
+
+
+### Companies
+Many general intelligence companies are approaching the problem from a software engineering perspective.
+- [Cognition](https://www.cognition-labs.com/) is building "the first AI software engineer".
+- [Imbue](https://imbue.com/) is "creating practical AI agents that can accomplish larger goals and safely work for us in the real world."
+- [Magic](https://magic.dev/) is "working on frontier-scale code models to build a coworker, not just a copilot."
+
+</main>
