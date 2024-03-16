@@ -40,7 +40,7 @@ export default function Home() {
             efficacy of autonomous AI agents.
           </li>
           <li>
-            Human trial recording - record a human (mysel) solving the problems identified in step 2
+            Human trial recording - record a human (myself) solving the problems identified in step 2
             out loud, on video and in screen recording.
           </li>
           <li>
@@ -56,22 +56,22 @@ export default function Home() {
             language.
           </li>
           <li>
-            Iterative system improvement - execute test runs against the problem list and record
-            success metrics. Use the results to iteratively improve the system and reach a v1
+            Iterative agent trials - execute test runs against the problem list and record
+            success metrics. Use successive results to improve the system and reach a v1
             language spec.
           </li>
           <li>
-            Fine-tuning data collection - collect a dataset of Amps contexts and correct outputs.
+            Fine-tuning data collection - collect a dataset of Amps contexts and expected outputs.
           </li>
           <li>
             LLM fine-tuning - fine-tune an open-source language model on the dataset in order to
             better generate Amps commands.
           </li>
           <li>
-            Full implementation and evaluation - implement the full Amps runtime and evaluate it on
+            Full implementation and evaluation - implement the full Amps runtime using the fine-tuned model and evaluate it on
             the problem list.
           </li>
-          <li>Documentation - write up the results and publish online.</li>
+          <li>Documentation - write up summary of research work and analysis of the Amps system performance and publish online.</li>
         </ol>
       </main>
     </>
