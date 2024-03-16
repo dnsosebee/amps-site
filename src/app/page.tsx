@@ -9,8 +9,8 @@ export default function Home() {
           <a href="https://en.wikipedia.org/wiki/Reflective_programming">
             reflective programming environment
           </a>{" "}
-          which allows them to understand and modify their own planned behavior to most effectively
-          help themselves reach their goals.
+          which allows them to radically understand and modify their own planned behavior at any
+          level of abstraction.
         </p>
 
         <p>
