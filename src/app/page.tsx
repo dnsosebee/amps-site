@@ -4,9 +4,8 @@ export default function Home() {
       <main className="mx-auto max-w-7xl sm:px-6 lg:px-8 sm:py-6 lg:py-8 prose">
         <h1>Agent Meta-Programming System Runtime</h1>
         <p>
-          Amps is a research project by <a href="https://danielsosebee.com">Daniel Sosebee</a> to
-          develop a language and runtime for meta-self-improving AI agents. Unlike many existing
-          agent architectures, Amps agents operate in a{" "}
+          Amps is a research project to develop a language and runtime for meta-self-improving AI
+          agents. Unlike many existing agent architectures, Amps agents operate in a{" "}
           <a href="https://en.wikipedia.org/wiki/Reflective_programming">
             reflective programming environment
           </a>{" "}
@@ -15,7 +14,8 @@ export default function Home() {
         </p>
 
         <p>
-          This project builds on the concept of human programming as described and developed in{" "}
+          This project is led by <a href="https://danielsosebee.com">Daniel Sosebee</a> and builds
+          on the concept of human programming as described and developed in{" "}
           <a href="https://a.methodable.com">Methodable</a>, the human-programming tool.
         </p>
 
