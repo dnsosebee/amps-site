@@ -1,22 +1,32 @@
+import Image from "next/image";
+
 export default function Home() {
   return (
     <>
       <main className="mx-auto max-w-7xl sm:px-6 lg:px-8 sm:py-6 lg:py-8 prose">
         <h1>Agent Meta-Programming System Runtime</h1>
+        <Image
+          src="/escher-drawing-hands.webp"
+          alt="Escher's Drawing Hands"
+          className="float-right m-5"
+          width="200"
+          height="200"
+        />
         <p>
           Amps is a research project to develop a language and runtime for meta-self-improving AI
           agents. Unlike many existing agent architectures, Amps agents operate in a{" "}
           <a href="https://en.wikipedia.org/wiki/Reflective_programming">
             reflective programming environment
           </a>{" "}
-          which allows them to radically understand and modify their own planned behavior at any
-          level of abstraction.
+          which allows them to systematically understand and modify their own behavior systems at
+          any level of abstraction.
         </p>
 
         <p>
           This project is led by <a href="https://danielsosebee.com">Daniel Sosebee</a> and builds
           on the concept of human programming as described and developed in{" "}
-          <a href="https://a.methodable.com">Methodable</a>, the human-programming tool.
+          <a href="https://a.methodable.com">Methodable</a>. For questions or ideas, please{" "}
+          <a href="mailto:daniel@harmonic.so">reach out via email</a>.
         </p>
 
         <h3>Agenda</h3>
